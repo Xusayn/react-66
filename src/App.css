@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+#icon{
+  font-size: 50px;
+}
+.app{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+.sidebar{
+  width: 120px;
+  height: 100vh;
+  background-color: rgb(123, 170, 155);
+
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 60px;
+}
+.sidebar i{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+.sidebarr{
+  width: 190px;
+  height: 100vh;
+  background-color: rgb(123, 170, 155);
+
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-top: 40px;
+}
+.sidebarr i{
+  font-size: 25px;
+  cursor: pointer;
+}
+.container{
+  width: 83.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  gap: 40px;
+
+}
+#left{
+  font-size: 32px;
+  color: gray;
+  cursor: pointer;
+}
+.icons ,.iconss{
+  width: 99%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+
+}
+ .iconss:hover{
+  width: 99%;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  border: none;
+
+
+}
+.icons:hover{
+  width: 99%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: none;
+
+}
+.icons,.iconss{
+  color: black;
+  border: none;
+  outline: none;
+}
